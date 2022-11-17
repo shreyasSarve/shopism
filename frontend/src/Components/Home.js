@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className='home'>
        <div className="home__container">
-            <img className='home__image' src="https://viatea.es/wp-content/uploads/2020/06/amazon-prime-video-spain-contenido.jpg" alt="" />
+            <img className='home__image' src="https://www.epo.org/about-us/annual-reports-statistics/statistics/2020/digital-technologies/TopVisual.jpg?lenya.module=svg&height=283&width=761" alt="" />
 
             <div className="home__row">
                 {/*product1 row 1 */}
@@ -15,7 +15,6 @@ function Home() {
 
                 {/*product2 row 1 */}
                 <Product title='Logitech Keyboard' price={32} image = "https://m.media-amazon.com/images/I/61+U9lMboFL._AC_UY218_.jpg"  rating= {5}/>
-                
             </div>
 
 
